@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <title>Pengaturan</title>
+</head>
+<body>
+    <div class="container-fluid" style="height: 100vh; max-width: 2000px;">
+        <div class="row min-vh-100 flex-column flex-md-row">
+            <aside class="col-12 col-md-3 col-xl-2 p-0 bg-light">
+              <nav class="navbar navbar-expand-md navbar-light flex-md-column flex-row align-items-center py-2 text-center sticky-top" id="sidebar">
+                <div class="text-center p-3">
+                  <img src="img/logo1.png" class="navbar-brand img-fluid mb-4 px-4 py-2 d-none d-md-block"/>
+                </div>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="nav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon" ></span>
+                </button>
+                <div class="collapse navbar-collapse" id="nav">
+                  <ul class="navbar-nav flex-column w-100 justify-content-start">
+                  <li class="nav-item ">
+                    <a href="monitor.html" class="nav-link d-flex align-items-center" style="color: #a1a0b4;">
+                        <i class='bx bx-line-chart fs-4'></i>
+                        <span class="links-name ms-3">Monitoring</span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="config.html" class="nav-link d-flex align-items-center" aria-current="page" style="color: #384ccc;">
+                        <i class='bx bx bx-cog fs-4'></i>
+                        <span class="links-name ms-3">Pengaturan</span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="help.html" class="nav-link active d-flex align-items-center" style="color: #a1a0b4;">
+                        <i class='bx bxs-help-circle fs-4'></i>
+                        <span class="links-name ms-3">Bantuan</span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="about.html" class="nav-link d-flex align-items-center" style="color: #a1a0b4;">
+                        <i class='bx bxs-info-circle fs-4'></i>
+                        <span class="links-name ms-3">Tentang</span>
+                    </a>
+                  </li>
+                </ul>
+                </div>      
+              </nav>   
+            </aside>
+            <main class="col px-0 flex-grow-1">
+                <div class="row">
+                    <div class="col-md px-5">
+                        <div class="mt-4" id="page-content-wrapper">
+                            <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+                                <div class="d-flex align-items-center">
+                                    <h1 class="display-6 fw-bold m-0">Pengaturan</h1>
+                                </div>
+                            </nav>
+                        </div>
+                        <div class="row row-cols-1 mt-3 row-cols-md-3 g-4">
+                            <div class="col-md">
+                              <div class="card" style="border-radius: 10px;">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">LED 1</h5>
+                                        <p class="card-text" style="color: #a1a0b4">Mengatur pencahayaan untuk LED 1</p>
+                                        <div class="but pt-2 text-center">
+                                            <a href="#" class="btn btn-light fw-bold" style="color: #a1a0b4;">On</a>
+                                            <a href="#" class="btn btn-light fw-bold" style="color: #384ccc;">Off</a>
+                                          </div>
+                                  </div>
+                              </div>
+                            </div>
+                            <div class="col-md">
+                                <div class="card" style="border-radius: 10px;">
+                                  <div class="card-body">
+                                      <h5 class="card-title fw-bold">LED 1</h5>
+                                          <p class="card-text" style="color: #a1a0b4">Mengatur pencahayaan untuk LED 2</p>
+                                          <div class="but pt-2 text-center">
+                                              <a href="#" class="btn btn-light fw-bold" style="color: #384ccc;">On</a>
+                                              <a href="#" class="btn btn-light fw-bold" style="color: #a1a0b4;">Off</a>
+                                            </div>
+                                    </div>
+                                </div>
+                              </div>
+                              <div class="col-md">
+                                <div class="card" style="border-radius: 10px;">
+                                  <div class="card-body">
+                                      <h5 class="card-title fw-bold">Motor</h5>
+                                          <p class="card-text" style="color: #a1a0b4">Mengatur jalannya motor</p>
+                                          <div class="but pt-2 text-center">
+                                              <a href="#" class="btn btn-light fw-bold" style="color: #384ccc;">On</a>
+                                              <a href="#" class="btn btn-light fw-bold" style="color: #a1a0b4;">Off</a>
+                                            </div>
+                                    </div>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </main>  
+        </div>
+    </div>
+
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
